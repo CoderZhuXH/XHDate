@@ -14,6 +14,7 @@
 		0C2067BF1EA32C8300A8455A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2067BD1EA32C8300A8455A /* LaunchScreen.storyboard */; };
 		0C2067C91EA32D0300A8455A /* NSString+XHDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2067C81EA32D0300A8455A /* NSString+XHDateFormat.m */; };
 		0C2067CC1EA32D3500A8455A /* NSDate+XHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2067CB1EA32D3500A8455A /* NSDate+XHCategory.m */; };
+		0C4D9F941EA3659800A67B90 /* NSDateComponents+XHCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D9F931EA3659800A67B90 /* NSDateComponents+XHCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		0C2067C81EA32D0300A8455A /* NSString+XHDateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XHDateFormat.m"; sourceTree = "<group>"; };
 		0C2067CA1EA32D3500A8455A /* NSDate+XHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XHCategory.h"; sourceTree = "<group>"; };
 		0C2067CB1EA32D3500A8455A /* NSDate+XHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XHCategory.m"; sourceTree = "<group>"; };
+		0C4D9F921EA3659800A67B90 /* NSDateComponents+XHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents+XHCategory.h"; sourceTree = "<group>"; };
+		0C4D9F931EA3659800A67B90 /* NSDateComponents+XHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateComponents+XHCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				0C2067C81EA32D0300A8455A /* NSString+XHDateFormat.m */,
 				0C2067CA1EA32D3500A8455A /* NSDate+XHCategory.h */,
 				0C2067CB1EA32D3500A8455A /* NSDate+XHCategory.m */,
+				0C4D9F921EA3659800A67B90 /* NSDateComponents+XHCategory.h */,
+				0C4D9F931EA3659800A67B90 /* NSDateComponents+XHCategory.m */,
 			);
 			path = XHDate;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				0C2067C91EA32D0300A8455A /* NSString+XHDateFormat.m in Sources */,
 				0C2067B71EA32C8300A8455A /* ViewController.m in Sources */,
 				0C2067B41EA32C8300A8455A /* AppDelegate.m in Sources */,
+				0C4D9F941EA3659800A67B90 /* NSDateComponents+XHCategory.m in Sources */,
 				0C2067B11EA32C8300A8455A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

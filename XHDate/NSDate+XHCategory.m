@@ -7,51 +7,48 @@
 //
 
 #import "NSDate+XHCategory.h"
-
-#define DATE_COMPONENTS (NSCalendarUnitYear| NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekOfYear |  NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday | NSCalendarUnitWeekdayOrdinal)
-#define CURRENT_CALENDAR [NSCalendar currentCalendar]
-
+#import "NSDateComponents+XHCategory.h"
 
 @implementation NSDate (XHCategory)
 
 -(NSInteger)year
 {
-    NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
+    NSDateComponents *components = [NSDateComponents xh_dateComponentsFromDate:self];
     return components.year;
 }
 - (NSInteger) month
 {
-    NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
+    NSDateComponents *components =  [NSDateComponents xh_dateComponentsFromDate:self];
     return components.month;
 }
 
 - (NSInteger) day
 {
-    NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
+    NSDateComponents *components =  [NSDateComponents xh_dateComponentsFromDate:self];
     return components.day;
 }
 
 - (NSInteger) hour
 {
-    NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
+    NSDateComponents *components =  [NSDateComponents xh_dateComponentsFromDate:self];
     return components.hour;
 }
 
 - (NSInteger) minute
 {
-    NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
+    NSDateComponents *components = [NSDateComponents xh_dateComponentsFromDate:self];
     return components.minute;
 }
 
 - (NSInteger) seconds
 {
-    NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
+    NSDateComponents *components =  [NSDateComponents xh_dateComponentsFromDate:self];
     return components.second;
 }
 
 - (NSInteger) weekday
 {
-    NSDateComponents *components = [CURRENT_CALENDAR components:DATE_COMPONENTS fromDate:self];
+    NSDateComponents *components =  [NSDateComponents xh_dateComponentsFromDate:self];
     return components.weekday;
 }
 
