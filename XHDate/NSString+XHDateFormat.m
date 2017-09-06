@@ -24,7 +24,7 @@
 -(NSString *)xh_formatYueRi
 {
     NSDate *date = [NSDate xh_dateWithDateString:self];
-    return [NSString stringWithFormat:@"%02ld月%02ld月",date.month,date.day];
+    return [NSString stringWithFormat:@"%02ld月%02ld日",date.month,date.day];
 }
 -(NSString *)xh_formatNian
 {
