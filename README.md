@@ -2,6 +2,12 @@
 ### 时间字符串转换为任意格式显示
 _____________________________
 
+[![AppVeyor](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg?maxAge=2592000)](https://github.com/CoderZhuXH/XHDate)
+[![Version Status](https://img.shields.io/cocoapods/v/XHDate.svg?style=flat)](http://cocoadocs.org/docsets/XHDate)
+[![Support](https://img.shields.io/badge/support-iOS%207%2B-brightgreen.svg)](https://github.com/CoderZhuXH/XHDate)
+[![Pod Platform](https://img.shields.io/cocoapods/p/XHDate.svg?style=flat)](http://cocoadocs.org/docsets/XHDate/)
+[![Pod License](https://img.shields.io/cocoapods/l/XHDate.svg?style=flat)](https://github.com/CoderZhuXH/XHDate/blob/master/LICENSE)
+
 ### 特性:
 
 *   1.支持时间格式字符串转换为任意格式时间
