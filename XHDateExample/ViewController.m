@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "NSString+XHDateFormat.h"
+#import "XHDate.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,copy)NSString *timeString;

@@ -33,6 +33,7 @@
 		0C2067CB1EA32D3500A8455A /* NSDate+XHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XHCategory.m"; sourceTree = "<group>"; };
 		0C4D9F921EA3659800A67B90 /* NSDateComponents+XHCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents+XHCategory.h"; sourceTree = "<group>"; };
 		0C4D9F931EA3659800A67B90 /* NSDateComponents+XHCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateComponents+XHCategory.m"; sourceTree = "<group>"; };
+		609DD0B51F9D87E40073BB3A /* XHDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHDate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		0C2067C61EA32CB900A8455A /* XHDate */ = {
 			isa = PBXGroup;
 			children = (
+				609DD0B51F9D87E40073BB3A /* XHDate.h */,
 				0C2067C71EA32D0300A8455A /* NSString+XHDateFormat.h */,
 				0C2067C81EA32D0300A8455A /* NSString+XHDateFormat.m */,
 				0C2067CA1EA32D3500A8455A /* NSDate+XHCategory.h */,
